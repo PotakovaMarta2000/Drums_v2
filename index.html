@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drums</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <marquee behavior="scroll" direction="right">Нажми на клавиатуре следующие буквы: <span>Q W E R T Y U</span> Отбивай свой ритм! </marquee>
+
+    <div class="container">
+        <div class="drums">
+            
+            <div data-d='q' class="kick"></div>
+            <div data-d='w' class="snare"></div>
+            <div data-d='e' class="hi-hat"></div>
+            <div data-d='r' class="tom1"></div>
+            <div data-d='t' class="tom2"></div>
+            <div data-d='y' class="tom3"></div>
+            <div data-d='u' class="crash"></div>
+
+            <audio src="./music.mp3" autoplay="autoplay" controls></audio>
+        </div>
+    </div>
+
+    <audio data-a='q' src="hit/kick.mp3"></audio>
+    <audio data-a='w' src="hit/snare.mp3"></audio>
+    <audio data-a='e' src="hit/hi-hat.mp3"></audio>
+    <audio data-a='r' src="hit/tom1.mp3"></audio>
+    <audio data-a='t' src="hit/tom2.mp3"></audio>
+    <audio data-a='y' src="hit/tom3.mp3"></audio>
+    <audio data-a='u' src="hit/crash.mp3"></audio>
+
+    
+
+    <script src="add.js"></script>
+</body>
+</html>
